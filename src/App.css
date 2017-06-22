@@ -1,0 +1,61 @@
+.App {
+  text-align: left;
+  -webkit-flex-direction:row;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+  overflow:scroll;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Editor-container {
+  width:100%;
+  -webkit-flex-direction:row;
+  display: flex;
+  display: -webkit-flex;
+}
+
+#components-tabs-demo-card-top .code-box-demo {
+  background: #ECECEC;
+  overflow: hidden;
+  padding: 24px;
+}
+
+.card-container > .ant-tabs-card > .ant-tabs-content {
+  height: 120px;
+  margin-top: -16px;
+}
+
+.card-container > .ant-tabs-card > .ant-tabs-content > .ant-tabs-tabpane {
+  background: #fff;
+  padding: 16px;
+}
+
+.card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+  border-color: transparent;
+}
+
+.card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
+  border-color: #fff;
+}

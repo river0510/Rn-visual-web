@@ -1,0 +1,10 @@
+.Container {
+  position: absolute;
+  width:540px;
+  height:360px;
+  margin-right: auto;
+  margin-left: auto;
+  border-color: 'gray';
+  border-width: 1px;
+  border-style: dotted;
+}
